@@ -12,9 +12,14 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.myapplication.ui.theme.MyApplicationTheme
+import android.util.Log
+
+
 
 class MainActivity : ComponentActivity() {
+    private val TAG="test"
     override fun onCreate(savedInstanceState: Bundle?) {
+        Log.d(TAG,"testing onCreateLog")
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
