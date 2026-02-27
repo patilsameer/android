@@ -1,0 +1,32 @@
+# --- Android Studio / IntelliJ IDEA ---
+.idea/
+*.iml
+.gradle/
+build/
+captures/
+local.properties
+.cxx/
+*.keystore
+!debug.keystore
+
+# --- Android Build Outputs ---
+**/build/
+*.apk
+*.aar
+*.bundle
+
+# --- Kotlin / JVM ---
+*.class
+bin/
+gen/
+
+# --- Log files ---
+*.log
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Secrets (Highly Recommended) ---
+# If you use a secrets.properties file for API keys
+secrets.properties
